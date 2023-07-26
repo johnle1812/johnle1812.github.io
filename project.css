@@ -1,0 +1,28 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap'); */
+html {
+    height: 100%;
+}
+body {
+    font-family: Oswald,'Courier New', Courier, monospace;
+    background-image: url("https://i.pinimg.com/originals/a3/9c/94/a39c94dfdd738c487125382c501b47e2.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+main{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+img#facebook {
+    width: 25px;
+    height: 25px;   
+    vertical-align: middle;
+}
+#instagram {
+    width: 33px;
+    height: 33px;
+    vertical-align: middle;
+    margin-left: -5px;
+}
