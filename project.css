@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Oswald:wght@500&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;500;600;700&family=Handjet:wght@500&family=Oswald:wght@500&family=Quicksand:wght@300;400;500;600;700&display=swap");
 html {
   height: 100%;
   font-family: "Quicksand", sans-serif;
@@ -31,10 +32,12 @@ h1 {
   font-size: larger;
 }
 #title {
-  margin-left: 15vw;
-  font-size: x-large;
+  text-align: center;
+  font-size: 50px;
   font-weight: bolder;
-  color: rgb(168, 173, 125);
+  color: rgb(255, 243, 156);
+  margin-top: 10vh;
+  font-family: "Edu SA Beginner", cursive;
 }
 #facebook {
   border-color: #3b5998;
@@ -57,9 +60,22 @@ a {
   );
   text-align: center;
 }
+#Spotify {
+  border-color: #1db954;
+  background-color: #1db954;
+  text-align: center;
+}
 div.button {
   border-radius: 12px;
   margin: 10px;
-  width: 40%;
-  margin-left: 10vw;
+  width: 60%;
+  margin-left: 12vw;
+}
+main {
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  backdrop-filter: brightness(50%);
+  padding: 25px;
+  margin-top: 25px;
 }
