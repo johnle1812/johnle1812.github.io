@@ -44,38 +44,62 @@ h1 {
   background-color: #3b5998;
   text-align: center;
 }
+#facebook:hover {
+  background-color: aliceblue;
+}
+
 a {
-  color: aliceblue;
   text-decoration: none;
-  font-size: x-large;
+  font-size: 30px;
   font-weight: bolder;
+  width: 100%;
+  display: block;
 }
 #instagram {
-  background-image: linear-gradient(
-    to bottom right,
-    #fccc63,
-    #fbad50,
-    #cd486b,
-    #4c68d7
-  );
+  background-color: #fbad50;
   text-align: center;
+}
+#instagram:hover {
+  background-color: aliceblue;
 }
 #Spotify {
   border-color: #1db954;
   background-color: #1db954;
   text-align: center;
 }
+#Spotify:hover {
+  background-color: aliceblue;
+}
 div.button {
   border-radius: 12px;
   margin: 10px;
   width: 60%;
   margin-left: 12vw;
+  transition-duration: 0.4s;
 }
 main {
   margin: auto;
   width: 60%;
-  border-radius: 10px;
+  border-radius: 15px;
   backdrop-filter: brightness(50%);
   padding: 25px;
   margin-top: 25px;
+}
+#facebook a {
+  color: aliceblue;
+}
+#facebook a:hover {
+  color: #3b5998;
+}
+#instagram a {
+  color: aliceblue;
+}
+#instagram a:hover {
+  color: #fbad50;
+}
+#Spotify a {
+  color: black;
+}
+#Spotify a:hover {
+  color: #1db954;
 }
